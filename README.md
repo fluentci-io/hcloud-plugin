@@ -52,6 +52,6 @@ Github Actions:
       setup
   env:
     GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-- name: Show gcloud CLI version
+- name: Show hcloud CLI version
   run: hcloud version
 ```
